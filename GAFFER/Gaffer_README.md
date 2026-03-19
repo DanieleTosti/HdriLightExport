@@ -1,4 +1,4 @@
-# HDRI Light Rig Importer for Gaffer  v2.15
+# HDRI Light Rig Importer for Gaffer  v2.15  
 
 **Author:** Daniele Tosti (2021) | Vanilla port: 2026-03
 

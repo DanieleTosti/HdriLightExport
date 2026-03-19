@@ -1,4 +1,4 @@
-## Non-Resale Software License
+## Non-Resale Software License 
 
 Copyright (c) 2021-2026 Daniele Tosti. All rights reserved.
 
