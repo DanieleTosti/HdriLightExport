@@ -9,6 +9,9 @@ This project is source-available under a custom license. Commercial resale, reli
 NOTE that this GitHub repo only hosts the Gaffer importer demo. 
 The actual .nuke folder is hosted here for download. 
 
+
+[Watch the demo video](./VIDEOs/20260319_0930_HDRI_Light_Export_compressed.mp4)
+
 ---
 
 ## Workflow
