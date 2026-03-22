@@ -7,7 +7,7 @@ It supports manual frame framing, OpenCV auto-detection, and optional Depth Anyt
 
 This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted.
 
-NOTE that this GitHub repo only hosts the Gaffer importer demo. 
+NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
 The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
 
 
