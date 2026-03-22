@@ -1,13 +1,14 @@
 # HDRI Light Export
 
-**Version 2.15** | Author: Daniele Tosti | 2026-03 | Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
+**Version 2.15** | Author: Daniele Tosti | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
 
-Isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). Supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
+This tool isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
+It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
 
-This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted without written permission.
+This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted.
 
 NOTE that this GitHub repo only hosts the Gaffer importer demo. 
-The actual .nuke folder is hosted here for download. 
+The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
 
 
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
@@ -131,7 +132,7 @@ If onnxruntime or the model files are missing, the *Generate Depth Map* button i
 
 ---
 
-## Known Limitations
+## Features
 
 - **Single node**: Only one HDRI_Light_Export node is supported per Nuke script.
 - **Depth model domain**: The indoor model overestimates distances outdoors and vice versa. Always match the *Depth scene* dropdown to the actual scene type.
