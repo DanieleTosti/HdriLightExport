@@ -10,7 +10,7 @@ This project is source-available under a custom license. Commercial resale, reli
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
 The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
 
-(.IMAGEs/HLE_still_1.jpg)
+![Screenshot](.IMAGEs/HLE_still_1.jpg)
 
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
 
