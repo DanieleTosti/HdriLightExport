@@ -7,7 +7,7 @@ Isolates bright areas of an HDRI into separate EXR textures with per-light metad
 This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted without written permission.
 
 NOTE that this GitHub repo only hosts the Gaffer importer demo. 
-The actual .nuke folder is [hosted here for download](https://dtosti/com/HLE/HLE 20260321.tar). 
+The actual .nuke folder is [hosted here for download](https://dtosti/com/HLE/HLE_20260321.tar). 
 
 
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
