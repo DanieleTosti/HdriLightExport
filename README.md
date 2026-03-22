@@ -5,11 +5,12 @@
 This tool isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
 It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
 
-This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted.
+This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted
 
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
 The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
 
+.IMAGEs/HLE_still_1.jpg
 
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
 
@@ -26,6 +27,8 @@ The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE
 5. **(Optional) Generate Depth Map** — Select Indoor or Outdoor, then press *Generate Depth Map*. At export time, each light's distance and sun/HMI flag will be set from the depth map automatically.
 6. **Export** — Press *Export EXR Files*. Output goes to the *Export TMP Files To* directory.
 7. **(Optional) Post Process** — If an executable or script is set in *Export Post Process*, it runs after export with all output paths as arguments.
+
+
 
 ---
 
