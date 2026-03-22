@@ -10,7 +10,9 @@ This project is source-available under a custom license. Commercial resale, reli
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
 The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
 
-![Screenshot](./IMAGEs/HLE_still_1.jpg)
+![Nuke screenshot](./IMAGEs/HLE_still_1.jpg)
+
+![Gaffer screenshot](./IMAGEs/HLE_still_2.jpg)
 
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
 
@@ -140,7 +142,9 @@ If onnxruntime or the model files are missing, the *Generate Depth Map* button i
 - **Single node**: Only one HDRI_Light_Export node is supported per Nuke script.
 - **Depth model domain**: The indoor model overestimates distances outdoors and vice versa. Always match the *Depth scene* dropdown to the actual scene type.
 - **Depth sun threshold**: Lights with sampled depth >= 28 meters or max luminance >= 20,000 are automatically flagged as sun/HMI.
-- **Importers available for Gaffer USD lights and Blender lights**: Please check the readme.md within each application folder. 
+- **Importers available for Gaffer USD lights and Blender lights**: Please check the readme.md within each application folder.
+
+![Blender screenshot](./IMAGEs/HLE_still_3.jpg)
 
 ![Gaffer Importer](./IMAGEs/20260319_1000_HDRI_Light_Export_Gaffer.gif)
 
