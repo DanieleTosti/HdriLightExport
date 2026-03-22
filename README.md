@@ -12,7 +12,7 @@ The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE
 
 ![Nuke screenshot](./IMAGEs/HLE_still_1.jpg)
 
-![Gaffer screenshot](./IMAGEs/HLE_still_2.jpg)
+![Gaffer screenshot](./IMAGEs/HLE_still_2.png)
 
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
 
@@ -144,7 +144,7 @@ If onnxruntime or the model files are missing, the *Generate Depth Map* button i
 - **Depth sun threshold**: Lights with sampled depth >= 28 meters or max luminance >= 20,000 are automatically flagged as sun/HMI.
 - **Importers available for Gaffer USD lights and Blender lights**: Please check the readme.md within each application folder.
 
-![Blender screenshot](./IMAGEs/HLE_still_3.jpg)
+![Blender screenshot](./IMAGEs/HLE_still_3.png)
 
 ![Gaffer Importer](./IMAGEs/20260319_1000_HDRI_Light_Export_Gaffer.gif)
 
