@@ -5,7 +5,7 @@
 This tool isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
 It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
 
-This project is source-available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted
+This project is available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted
 
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
 The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
