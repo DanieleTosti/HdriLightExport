@@ -163,6 +163,46 @@ If onnxruntime or the model files are missing, the *Generate Depth Map* button i
 
 ---
 
+## Third-Party Licenses
+
+This project bundles or depends on the following third-party components. Their licenses apply to the respective components only and are separate from this project's own license.
+
+### Depth Anything V2 (ONNX models)
+
+The metric depth estimation models distributed under `depthanything_env/model/` are converted from **Depth Anything V2** by Lihe Yang, Bingyi Kang, Zilong Huang, Zhen Zhao, Xiaogang Xu, Jiashi Feng, and Hengshuang Zhao (NeurIPS 2024).
+
+- **License**: Apache License 2.0
+- **Repository**: https://github.com/DepthAnything/Depth-Anything-V2
+- **Paper**: https://arxiv.org/abs/2406.09414
+
+Depth Anything V2 uses a **DINOv2** backbone (Meta / Facebook Research), which is also licensed under the Apache License 2.0.
+
+- **DINOv2 Repository**: https://github.com/facebookresearch/dinov2
+- **DINOv2 License**: Apache License 2.0
+
+### ONNX Runtime
+
+The `onnxruntime` package used for model inference is developed by Microsoft.
+
+- **License**: MIT License
+- **Repository**: https://github.com/microsoft/onnxruntime
+
+### OpenCV
+
+OpenCV is pre-bundled under `vendor/` for Nuke Python.
+
+- **License**: Apache License 2.0 (OpenCV 4.5.0+)
+- **Repository**: https://github.com/opencv/opencv
+
+### NumPy
+
+NumPy is pre-bundled under `vendor/` alongside OpenCV.
+
+- **License**: BSD 3-Clause License
+- **Repository**: https://github.com/numpy/numpy
+
+---
+
 ## Non-Resale Software License
 
 Copyright (c) 2021-2026 Daniele Tosti. All rights reserved.
