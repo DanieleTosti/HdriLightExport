@@ -207,7 +207,18 @@ This project bundles or depends on the following third-party components. Their l
 
 ### Depth Anything V2 (ONNX models)
 
-The metric depth estimation models distributed under `depthanything_env/model/` are converted from **Depth Anything V2** by Lihe Yang, Bingyi Kang, Zilong Huang, Zhen Zhao, Xiaogang Xu, Jiashi Feng, and Hengshuang Zhao (NeurIPS 2024).
+The metric depth estimation models distributed under `depthanything_env/model/` are:
+
+- `depth_anything_v2_vitb_indoor_dynamic.onnx` (371 MB) -- NYU Depth V2 indoor variant
+- `depth_anything_v2_vitb_outdoor_dynamic.onnx` (371 MB) -- Virtual KITTI 2 outdoor variant
+
+These are **ONNX exports** of the Depth Anything V2 ViT-Base metric models, converted by **Fabio Milentiansen Sim** and downloaded from:
+
+- **ONNX conversion repository**: https://github.com/fabio-sim/Depth-Anything-ONNX
+- **Release**: https://github.com/fabio-sim/Depth-Anything-ONNX/releases/tag/v2.0.0
+- **License**: Apache License 2.0 (Copyright 2024 Fabio Milentiansen Sim)
+
+The original **Depth Anything V2** model architecture and weights are by Lihe Yang, Bingyi Kang, Zilong Huang, Zhen Zhao, Xiaogang Xu, Jiashi Feng, and Hengshuang Zhao (NeurIPS 2024).
 
 - **License**: Apache License 2.0
 - **Repository**: https://github.com/DepthAnything/Depth-Anything-V2
