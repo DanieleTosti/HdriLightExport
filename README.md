@@ -18,6 +18,22 @@ The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE
 
 [Download the Gaffer demo video](./VIDEOs/20260319_1005_HDRI_Light_Export_Gaffer_compressed.mp4)
 
+
+---
+
+## Features list
+
+- Orthogonal and perspective extraction support
+- OpenCV support
+- Interiors and outdoor DepthAnything support
+- Auto extraction and conversion to 3D space
+- Luma to exposure conversion
+- HDRI calibration
+- Arnold and USD light support
+- Post processing support
+- Support for python 3.10 and 3.11
+- Support for Nuke 15 and 16
+
 ---
 
 ## Workflow
