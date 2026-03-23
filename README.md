@@ -2,6 +2,7 @@
 
 **Version 2.15** | Author: Daniele Tosti | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
 
+
 This tool isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
 It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
 
@@ -17,6 +18,27 @@ The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE
 [Download the Nuke demo video](./VIDEOs/20260319_0935_HDRI_Light_Export_compressed.mp4)
 
 [Download the Gaffer demo video](./VIDEOs/20260319_1005_HDRI_Light_Export_Gaffer_compressed.mp4)
+
+---
+
+## Table of Contents
+
+- [Features list](#features-list)
+- [Workflow](#workflow)
+- [UI Controls](#ui-controls)
+  - [Header](#header)
+  - [Image Adjustments](#image-adjustments)
+  - [OpenCV Auto-Detection](#opencv-auto-detection)
+  - [Depth Mapping (Optional)](#depth-mapping-optional)
+  - [Export](#export)
+  - [Per-Light Controls (added dynamically)](#per-light-controls-added-dynamically)
+- [Environment and Dependencies](#environment-and-dependencies)
+  - [Core: vendor/](#core-vendor)
+  - [Depth Mapping: depthanything_env/](#depth-mapping-depthanything_env)
+- [Features](#features)
+- [Troubleshooting](#troubleshooting)
+- [Third-Party Licenses](#third-party-licenses)
+- [Non-Resale Software License](#non-resale-software-license)
 
 
 ---
