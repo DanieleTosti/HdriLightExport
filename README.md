@@ -180,6 +180,7 @@ If onnxruntime or the model files are missing, the *Generate Depth Map* button i
 - **Single node**: Only one HDRI_Light_Export node is supported per Nuke script.
 - **Depth model domain**: The indoor model overestimates distances outdoors and vice versa. Always match the *Depth scene* dropdown to the actual scene type.
 - **Depth sun threshold**: Lights with sampled depth >= 28 meters or max luminance >= 20,000 are automatically flagged as sun/HMI.
+- **Illumination to exposure conversion**: Based on the research collected here: https://www.pixelsham.com/2020/12/26/exposure-value-measurements/
 - **Importers available for Gaffer USD lights and Blender lights**: Please check the readme.md within each application folder.
 
 ![Blender screenshot](./IMAGEs/HLE_still_3.png)
