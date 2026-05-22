@@ -6,6 +6,9 @@
 This tool automatically isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
 It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
 
+The extracted textures carry metadata to allow rig reconstruction within a 3D package. 
+Blender and Gaffer examples added to this repository. 
+
 This project is available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted
 
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
