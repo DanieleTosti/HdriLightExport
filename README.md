@@ -54,6 +54,7 @@ The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE
 - Auto extraction and conversion to 3D space
 - Luma to exposure conversion
 - HDRI calibration
+- HDRI auto removal of illumination sources
 - Arnold and USD light support
 - Post processing support
 - Support for python 3.10 and 3.11
