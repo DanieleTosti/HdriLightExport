@@ -2,6 +2,9 @@
 
 **Version 2.15** | Author: Daniele Tosti | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
 
+Note: This tool was originally built for a Linux environment. It has since been ported to a Windows environment. 
+I will update the repo and add a notification here once I have a confidence that it will run within a Linux environment again. 
+
 
 This tool automatically isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
 It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
