@@ -1,10 +1,8 @@
 # HDRI Light Export
 
-**Version 2.15** | Author: Daniele Tosti | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
+**Version 3.15** | Author: Daniele Tosti | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
 
-Note: This tool was originally built for a Linux environment. It has since been ported to a Windows environment. 
-I will update the repo and add a notification here once I have a confidence that it will run within a Linux environment again. 
-
+Version 3.15 now includes the Windows and Linux installs.
 
 This tool automatically isolates bright areas of an HDRI into separate EXR textures with per-light metadata (EV, LUX, 3D position, distance, scale). 
 It supports manual frame framing, OpenCV auto-detection, and optional Depth Anything V2 metric depth for automatic distance estimation.
@@ -15,7 +13,7 @@ Blender and Gaffer examples added to this repository.
 This project is available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted
 
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
-The actual .nuke folder is [hosted here for download](https://dtosti.com/HLE/HLE_20260321.tar). 
+The actual .nuke folder is [hosted here for download](http://hle.pixelsham.com/HLE_Distributable_20260602_Pyarmor.tar). 
 
 ![Nuke screenshot](./IMAGEs/HLE_still_1.jpg)
 
