@@ -1,6 +1,6 @@
 # HDRI Light Export
 
-**Version 3.15** | Author: Daniele Tosti PixelSham.com | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
+**Version 3.15** | Author: Daniele Tosti - (https://hle.pixelsham.com) | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
 
 Version 3.15 now includes the Windows and Linux installs.
 
@@ -13,7 +13,7 @@ Blender and Gaffer examples added to this repository.
 This project is available under a custom license. Commercial resale, relicensing, or redistribution as a paid standalone product is not permitted
 
 NOTE that this GitHub repo only hosts the Gaffer and Blender importer demo. 
-The actual .nuke folder is [hosted here for download](http://hle.pixelsham.com/HLE_Distributable_20260602_Pyarmor.tar). 
+The actual .nuke folder is [hosted here for download](https://hle.pixelsham.com/HLE_Distributable_20260602_Pyarmor.tar). 
 
 ![Nuke screenshot](./IMAGEs/HLE_still_1.jpg)
 
