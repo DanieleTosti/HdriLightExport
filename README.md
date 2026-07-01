@@ -1,6 +1,6 @@
 # HDRI Light Export
 
-**Version 3.15** | Author: Daniele Tosti | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
+**Version 3.15** | Author: Daniele Tosti PixelSham.com | 2026-03 | Foundry Nuke custom toolset for extracting individual light sources from HDRI lat-long images.
 
 Version 3.15 now includes the Windows and Linux installs.
 
